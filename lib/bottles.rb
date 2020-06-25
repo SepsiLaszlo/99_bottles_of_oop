@@ -23,6 +23,7 @@ class Bottles
   end
 
   def action
+    "Go to the store and buy some more"
   end
 
   def container(number)
