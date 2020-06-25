@@ -23,7 +23,9 @@ class Bottles
   end
 
   def action(number = 0)
+    if number == 0
     "Go to the store and buy some more"
+    end
   end
 
   def container(number)
