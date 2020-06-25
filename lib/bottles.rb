@@ -25,6 +25,8 @@ class Bottles
   def action(number = 0)
     if number == 0
     "Go to the store and buy some more"
+    else
+      "Take #{pronoun(number)} down and pass it around"
     end
   end
 
