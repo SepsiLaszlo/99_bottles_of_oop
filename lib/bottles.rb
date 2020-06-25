@@ -22,7 +22,7 @@ class Bottles
     end
   end
 
-  def action
+  def action(number = 0)
     "Go to the store and buy some more"
   end
 
