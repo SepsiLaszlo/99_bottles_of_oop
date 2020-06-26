@@ -31,7 +31,7 @@ class Bottles
   end
 
   def quantity(number)
-    BottleNumber.new(number).quantity(number)
+    BottleNumber.new(number).quantity
   end
 end
 
@@ -73,7 +73,7 @@ class BottleNumber
     end
   end
 
-  def quantity(number)
+  def quantity
     if number == 0
       "no more"
     else
