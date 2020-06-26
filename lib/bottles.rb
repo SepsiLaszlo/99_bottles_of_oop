@@ -54,3 +54,10 @@ class Bottles
     end
   end
 end
+
+class BottleNumber
+  attr_accessor :number
+  def initialize(number)
+    @number = number
+  end
+end
