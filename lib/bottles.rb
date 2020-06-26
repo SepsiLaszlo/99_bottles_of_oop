@@ -27,7 +27,7 @@ class Bottles
   end
 
   def pronoun(number)
-    BottleNumber.new(number).pronoun(number)
+    BottleNumber.new(number).pronoun
   end
 
   def quantity(number)
@@ -53,7 +53,7 @@ class BottleNumber
     if number == 0
     "Go to the store and buy some more"
     else
-      "Take #{pronoun(number)} down and pass it around"
+      "Take #{pronoun} down and pass it around"
     end
   end
 
@@ -65,7 +65,7 @@ class BottleNumber
     end
   end
 
-  def pronoun(number)
+  def pronoun
     if number ==1
       "it"
     else
