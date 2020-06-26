@@ -19,7 +19,7 @@ class Bottles
   end
 
   def action(number = 0)
-    BottleNumber.new(number).action(number)
+    BottleNumber.new(number).action
   end
 
   def container(number)
@@ -49,7 +49,7 @@ class BottleNumber
     end
   end
 
-  def action(number = 0)
+  def action(delete_me = nil)
     if number == 0
     "Go to the store and buy some more"
     else
