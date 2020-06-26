@@ -41,7 +41,7 @@ class BottleNumber
     @number = number
   end
 
-  def successor(number)
+  def successor(delete_me = nil)
     if number == 0
       99
     else
